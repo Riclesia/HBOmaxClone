@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HBO Max</title>
+	<style>
+		.banner-image {
+			width: 30%; /* ajusta a largura da imagem para 30% do container */
+			height: auto; /* ajusta a altura da imagem para manter a proporção */
+			margin: 20px; /* adiciona um espaço de 20px ao redor da imagem */
+			border-radius: 10px; /* adiciona um efeito de borda arredondada à imagem */
+			display: inline-block; /* exibe as imagens lado a lado */
+		}
+	</style>
+</head>
+<body>
+	<!-- Menu de navegação -->
+	<nav class="menu">
+		<a href="index.html" class="menu__logo">
+			<img src="assets/images/hbo-logo.svg" alt="Logotipo HBOMax com o nome da marca" class="menu__logo-image" />
+		</a>
+		<div>
+			<a href="signIn.html" class="menu__item">Entrar</a>
+			<a href="#subscription" class="menu__item menu__item--button button">
+				Assine Agora
+			</a>
+		</div>
+	</nav>
+
+	<!-- Seção de hero -->
+	<header class="header">
+		<div class="header__content">
+			<div class="header__channels">
+				<img class="header__channel" src="assets/images/hbo.png" alt="HBO" />
+				<img class="header__channel" src="assets/images/dc.png" alt="DC" />
+				<img class="header__channel" src="assets/images/wb.png" alt="Warner Bross" />
+				<img class="header__channel" src="assets/images/cartoon-network_neutral.png" alt="Cartoon Network" />
+				<img class="header__channel" src="assets/images/max_originals.png" alt="Max Originals" />
+			</div>
+			<h1 class="header__title">
+				<span class="header__title--light">Curta as melhores histórias</span>
+				Para todo mundo
+			</h1>
+			<div class="divider"></div>
+			<div class="offer">
+				<p>Assinaturas a partir de</p>
+				<p class="offer__price">
+					R$14,15 <span class="offer__price--small">/mês*</span>
+				</p>
+			</div>
+			<a href="#subscription" class="button button--gradient header__button">
+				Assine agora
+			</a>
+			<p class="text--small">
+				*aplicável ao plano anual com o pagamento antecipado.
+			</p>
+		</div>
+	</header>
+
+	<!-- Seção de canais -->
+	<section class="channels">
+		<h2 class="title">Canais</h2>
+		<div class="channels__list">
+			<div class="channel">
+				<img src="assets/images/hbo.png" alt="HBO" />
+				<h3>HBO</h3>
+				<p>Canal de entretenimento com séries e filmes de alta qualidade.</p>
+			</div>
+			<div class="channel">
+				<img src="assets/images/dc.png" alt="DC" />
+				<h3>DC</h3>
+				<p>Canal de entretenimento com séries e filmes baseados em personagens da DC Comics.</p>
+			</div>
+			<div class="channel">
+				<img src="assets/images/wb.png" alt="Warner Bross" />
+				<h3>Warner Bross</h3>
+				<p>Canal de entretenimento com séries e filmes produzidos pela Warner Bross.</p>
+			</div>
+			<div class="channel">
+				<img src="assets/images/cartoon-network_neutral.png" alt="Cartoon Network" />
+				<h3>Cartoon Network</h3>
+				<p>Canal de entretenimento com desenhos animados e séries infantis.</p>
+			</div>
+			<div class="channel">
+				<img src="assets/images/max_originals.png" alt="Max Originals" />
+				<h3>Max Originals</h3>
+				<p>Canal de entretenimento com conteúdo original produzido pela HBO Max.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Seção de planos e preços -->
+	<section id="subscription
